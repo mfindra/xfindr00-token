@@ -1,10 +1,36 @@
-# xfindr00 token 
+# xfindr00 token smart contract with DAPP
 Updated ERC20 token.
 
-## Video presentation
+## Functionality
 
-Link for video presentation hosted on VUT google drive.
-https://drive.google.com/file/d/1Dage7r1Diya1j3ReqJVeyaW_Qcl-q4-9/view?usp=share_link
+The main features of the project include:
+
+### Account Information
+
+Get user information, including address, verification status, IDP admin status, identity provider status, user expiry date, and minting admin status.
+Display the token balance of the user.
+Token Transfer:
+
+### Transfer tokens to another address
+
+### Minting Tokens 
+
+Mint tokens (only available to users with the minting admin role).
+
+### Voting
+
+Propose a vote for increasing the TMAX value.
+Cast a vote for increasing the TMAX value.
+Propose a vote for adding a user.
+Cast a vote for adding a user.
+
+## Requirements 
+
+1. NodeJS version 19<,
+2. npm 9<,
+3. Ganache CLI v6.12.2,
+4. Metamask extension,
+5. Solidity 0.8.18.
 
 ## Instalation and deployment
 
@@ -43,4 +69,8 @@ New user (no roles):
 The tests are executed from folder `xfindr00-token` running `npx hardhat test`. Test case details are in documentation. 
 
 
+## Video presentation
+
+Link for video presentation hosted on VUT google drive.
+https://drive.google.com/file/d/1Dage7r1Diya1j3ReqJVeyaW_Qcl-q4-9/view?usp=share_link
 
